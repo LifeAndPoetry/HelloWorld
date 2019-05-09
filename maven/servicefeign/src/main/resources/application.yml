@@ -1,0 +1,16 @@
+ureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8765
+spring:
+  application:
+    name: servicefeign
+
+#Feign是自带断路器的
+#第一步：配置文件中将其设置为打开，第二步在接口中
+feign:
+  hystrix:
+    enabled: true
+
