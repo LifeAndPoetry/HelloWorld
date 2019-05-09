@@ -1,2 +1,2 @@
-# HelloWorld
-只是尝试教程
+你好GitHUb
+谨以此记录学习历程
